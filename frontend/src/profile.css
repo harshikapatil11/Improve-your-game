@@ -1,0 +1,1 @@
+.priority-editor{margin:25px 0}.priority-editor>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.priority-editor button{background:#262530;color:var(--muted);border:1px solid transparent;padding:10px 13px;border-radius:20px}.priority-editor button.active{background:#302333;color:var(--pink);border-color:var(--pink)}

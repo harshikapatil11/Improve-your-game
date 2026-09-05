@@ -17,7 +17,9 @@ export const modeChoices = [
   { id: 'happened', icon: '💔', title: 'Something happened', description: 'I need help understanding it.' },
   { id: 'confused', icon: '👀', title: "I'm confused", description: "I can't tell what this situation means." },
   { id: 'decide', icon: '🧭', title: 'I need to decide', description: "I don't know what I should do next." },
-  { id: 'demo', icon: '🕵️', title: 'Just curious', description: 'Show me a demo story.' },
+  { id: 'new-story', icon: '🕵️', title: 'Analyze a new situation', description: 'Start a completely new story.' },
+  { id: 'continue', icon: '📖', title: 'Continue a story', description: 'Pick up where you left off.' },
+  { id: 'overthink', icon: '🧠', title: 'Am I overthinking this?', description: 'Separate facts from assumptions.' },
 ];
 
 export function getGreeting(profile) {

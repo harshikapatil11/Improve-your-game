@@ -4,6 +4,8 @@ import App from './App';
 import './index.css';
 import './broMode.css';
 import './intro.css';
+import './routing.css';
+import './profile.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
