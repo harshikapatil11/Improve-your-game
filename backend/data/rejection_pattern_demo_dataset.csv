@@ -1,0 +1,101 @@
+case_id,approach_method,conversation_stage,initial_yes,reply_change,reciprocity,mixed_signals,relationship_status,his_investment,days_talking,meetings,he_increased_pursuit,pattern_tag,outcome
+G001,Mutual Friend,Initial,Yes,reduced,high,No,single/unknown,medium,45,5,Yes,ghosting_after_yes,ghosted
+G002,Work,Talking,Yes,stable,high,No,has_partner,low,43,5,No,healthy_reciprocity,positive
+G003,College,Frequent Talking,Yes,stable,low,No,has_partner,medium,19,1,Yes,one_sided_effort,rejected
+G004,Work,Frequent Talking,No,increased,low,No,single/unknown,high,4,5,No,overinvesting,rejected
+G005,Friend,Initial,Yes,reduced,low,No,has_partner,high,4,5,Yes,ghosting_after_yes,ghosted
+G006,Mutual Friend,Frequent Talking,No,increased,low,No,single/unknown,low,12,2,No,mixed_signals,rejected
+G007,Mutual Friend,Talking,Yes,reduced,low,Yes,has_partner,high,36,5,Yes,one_sided_effort,rejected
+G008,Dating App,Initial,Yes,stable,medium,Yes,has_partner,medium,16,0,No,already_has_boyfriend,not_available
+G009,College,Dating,No,increased,high,No,single/unknown,low,11,2,Yes,healthy_reciprocity,positive
+G010,College,Frequent Talking,No,reduced,low,No,has_partner,high,16,1,No,one_sided_effort,rejected
+G011,College,Initial,Yes,reduced,low,Yes,has_partner,low,26,3,No,ghosting_after_yes,ghosted
+G012,Work,Frequent Talking,Yes,reduced,low,Yes,has_partner,high,43,2,Yes,ghosting_after_yes,ghosted
+G013,Friend,Initial,No,stable,low,No,has_partner,medium,42,2,Yes,mixed_signals,rejected
+G014,Dating App,Dating,Yes,stable,low,Yes,has_partner,high,3,0,No,already_has_boyfriend,not_available
+G015,Mutual Friend,Dating,Yes,increased,low,Yes,single/unknown,low,6,4,Yes,mixed_signals,rejected
+G016,Work,Dating,No,reduced,medium,No,has_partner,high,15,4,Yes,already_has_boyfriend,not_available
+G017,Instagram,Talking,No,stable,high,No,has_partner,medium,16,0,No,moved_on_quickly,moved_on
+G018,Instagram,Initial,Yes,reduced,high,Yes,single/unknown,low,16,0,Yes,slow_replies,rejected
+G019,Work,Talking,No,increased,low,No,single/unknown,high,38,4,No,overinvesting,rejected
+G020,College,Frequent Talking,Yes,stable,low,No,has_partner,low,29,3,No,one_sided_effort,rejected
+G021,Mutual Friend,Frequent Talking,Yes,reduced,high,No,has_partner,high,8,1,Yes,already_has_boyfriend,not_available
+G022,College,Talking,Yes,reduced,low,No,single/unknown,low,6,3,Yes,one_sided_effort,rejected
+G023,College,Dating,Yes,reduced,high,No,single/unknown,low,32,1,No,slow_replies,rejected
+G024,Dating App,Dating,No,increased,medium,No,single/unknown,low,37,5,No,slow_replies,rejected
+G025,Dating App,Initial,Yes,increased,medium,No,has_partner,low,5,4,No,already_has_boyfriend,not_available
+G026,Instagram,Talking,Yes,increased,high,No,has_partner,low,27,0,Yes,already_has_boyfriend,not_available
+G027,Friend,Frequent Talking,No,reduced,low,Yes,single/unknown,medium,17,2,No,slow_replies,rejected
+G028,Instagram,Dating,No,reduced,high,No,has_partner,medium,41,4,Yes,already_has_boyfriend,not_available
+G029,Instagram,Talking,Yes,reduced,low,No,single/unknown,high,25,2,Yes,ghosting_after_yes,ghosted
+G030,Mutual Friend,Initial,Yes,reduced,high,Yes,has_partner,medium,10,2,Yes,moved_on_quickly,moved_on
+G031,Friend,Frequent Talking,Yes,reduced,high,No,has_partner,low,15,5,No,ghosting_after_yes,ghosted
+G032,Instagram,Frequent Talking,No,stable,low,Yes,single/unknown,low,10,5,No,moved_on_quickly,moved_on
+G033,Instagram,Initial,No,reduced,medium,Yes,has_partner,high,6,5,Yes,already_has_boyfriend,not_available
+G034,Instagram,Frequent Talking,Yes,reduced,high,No,single/unknown,high,25,0,No,ghosting_after_yes,ghosted
+G035,College,Talking,No,reduced,low,No,has_partner,high,17,1,Yes,one_sided_effort,rejected
+G036,Dating App,Talking,No,stable,high,No,has_partner,high,8,3,Yes,healthy_reciprocity,positive
+G037,Instagram,Talking,No,increased,low,No,single/unknown,low,27,2,No,moved_on_quickly,moved_on
+G038,Work,Frequent Talking,Yes,reduced,medium,Yes,has_partner,high,3,0,No,ghosting_after_yes,ghosted
+G039,Mutual Friend,Frequent Talking,No,reduced,medium,No,has_partner,low,29,4,Yes,already_has_boyfriend,not_available
+G040,Dating App,Dating,No,stable,high,No,single/unknown,medium,6,5,No,healthy_reciprocity,positive
+G041,College,Frequent Talking,No,reduced,low,No,has_partner,high,27,5,No,overinvesting,rejected
+G042,Work,Frequent Talking,Yes,increased,medium,No,has_partner,high,27,4,Yes,already_has_boyfriend,not_available
+G043,College,Dating,No,stable,low,Yes,has_partner,medium,45,1,No,already_has_boyfriend,not_available
+G044,Friend,Frequent Talking,No,reduced,low,Yes,has_partner,medium,16,1,Yes,already_has_boyfriend,not_available
+G045,College,Talking,Yes,increased,low,Yes,single/unknown,medium,26,3,No,slow_replies,rejected
+G046,Friend,Talking,Yes,increased,low,No,single/unknown,high,35,3,Yes,one_sided_effort,rejected
+G047,Work,Dating,No,increased,low,No,single/unknown,low,37,3,Yes,one_sided_effort,rejected
+G048,Mutual Friend,Talking,No,stable,medium,Yes,has_partner,medium,19,3,Yes,moved_on_quickly,moved_on
+G049,Friend,Talking,Yes,increased,medium,No,single/unknown,medium,26,5,Yes,mixed_signals,rejected
+G050,Instagram,Talking,No,increased,low,No,single/unknown,medium,28,3,Yes,one_sided_effort,rejected
+G051,College,Talking,No,stable,high,No,single/unknown,medium,19,3,No,healthy_reciprocity,positive
+G052,Friend,Dating,No,stable,medium,Yes,has_partner,high,10,4,Yes,slow_replies,rejected
+G053,Friend,Dating,Yes,increased,high,No,has_partner,high,13,0,No,healthy_reciprocity,positive
+G054,College,Frequent Talking,No,increased,high,No,single/unknown,medium,7,3,Yes,healthy_reciprocity,positive
+G055,Friend,Talking,Yes,stable,low,No,single/unknown,high,3,4,Yes,slow_replies,rejected
+G056,Mutual Friend,Frequent Talking,Yes,increased,low,No,single/unknown,high,25,1,Yes,one_sided_effort,rejected
+G057,Mutual Friend,Dating,No,stable,low,No,has_partner,high,27,5,Yes,already_has_boyfriend,not_available
+G058,Dating App,Initial,Yes,reduced,high,No,has_partner,high,38,0,No,ghosting_after_yes,ghosted
+G059,College,Initial,No,increased,high,No,single/unknown,low,29,2,No,healthy_reciprocity,positive
+G060,Work,Dating,No,stable,low,Yes,has_partner,high,31,3,No,already_has_boyfriend,not_available
+G061,Work,Dating,Yes,reduced,low,No,single/unknown,medium,23,0,No,ghosting_after_yes,ghosted
+G062,Dating App,Frequent Talking,No,increased,low,No,single/unknown,high,37,0,Yes,overinvesting,rejected
+G063,College,Dating,Yes,reduced,high,No,has_partner,medium,30,0,Yes,ghosting_after_yes,ghosted
+G064,Work,Frequent Talking,No,increased,medium,No,has_partner,high,32,4,No,mixed_signals,rejected
+G065,Dating App,Talking,No,increased,high,No,single/unknown,medium,9,5,Yes,healthy_reciprocity,positive
+G066,Friend,Dating,Yes,increased,low,Yes,single/unknown,high,19,5,No,overinvesting,rejected
+G067,Instagram,Talking,Yes,reduced,medium,No,single/unknown,low,19,0,Yes,ghosting_after_yes,ghosted
+G068,Work,Frequent Talking,Yes,reduced,low,No,single/unknown,high,32,3,No,mixed_signals,rejected
+G069,College,Dating,Yes,increased,low,No,single/unknown,high,6,4,Yes,overinvesting,rejected
+G070,Work,Dating,Yes,increased,high,No,has_partner,medium,40,4,Yes,already_has_boyfriend,not_available
+G071,Work,Initial,No,stable,high,No,single/unknown,medium,15,5,Yes,healthy_reciprocity,positive
+G072,Instagram,Talking,Yes,reduced,low,No,has_partner,low,2,3,No,already_has_boyfriend,not_available
+G073,Instagram,Talking,No,stable,low,No,has_partner,medium,18,5,Yes,moved_on_quickly,moved_on
+G074,Instagram,Initial,Yes,stable,high,No,single/unknown,low,12,2,No,healthy_reciprocity,positive
+G075,College,Initial,No,increased,medium,No,single/unknown,medium,40,0,No,moved_on_quickly,moved_on
+G076,Work,Initial,Yes,reduced,low,No,has_partner,high,45,2,Yes,overinvesting,rejected
+G077,Work,Dating,No,stable,high,No,has_partner,high,42,3,Yes,already_has_boyfriend,not_available
+G078,College,Dating,Yes,stable,medium,No,single/unknown,medium,20,5,No,moved_on_quickly,moved_on
+G079,Work,Initial,No,stable,low,No,single/unknown,medium,44,4,No,moved_on_quickly,moved_on
+G080,Instagram,Talking,No,increased,high,No,has_partner,high,19,4,Yes,healthy_reciprocity,positive
+G081,Work,Talking,Yes,stable,high,No,has_partner,medium,12,2,Yes,mixed_signals,rejected
+G082,College,Frequent Talking,Yes,stable,high,No,has_partner,low,34,5,No,healthy_reciprocity,positive
+G083,Work,Talking,Yes,stable,high,No,single/unknown,low,6,2,No,healthy_reciprocity,positive
+G084,Work,Dating,No,reduced,low,No,has_partner,high,11,3,No,overinvesting,rejected
+G085,Friend,Talking,No,stable,low,No,single/unknown,high,38,3,Yes,overinvesting,rejected
+G086,College,Initial,No,stable,high,No,single/unknown,high,10,4,No,healthy_reciprocity,positive
+G087,Friend,Dating,Yes,reduced,low,No,has_partner,high,43,1,Yes,ghosting_after_yes,ghosted
+G088,Instagram,Frequent Talking,Yes,reduced,medium,Yes,has_partner,high,45,4,No,ghosting_after_yes,ghosted
+G089,Instagram,Talking,Yes,reduced,low,Yes,has_partner,high,42,5,No,overinvesting,rejected
+G090,Friend,Frequent Talking,Yes,reduced,low,No,single/unknown,medium,3,0,No,one_sided_effort,rejected
+G091,Work,Dating,Yes,stable,medium,No,single/unknown,medium,38,5,Yes,slow_replies,rejected
+G092,Work,Talking,Yes,increased,low,No,has_partner,high,16,3,No,already_has_boyfriend,not_available
+G093,Instagram,Dating,No,stable,high,No,has_partner,low,24,4,No,moved_on_quickly,moved_on
+G094,Instagram,Talking,Yes,increased,high,No,single/unknown,medium,26,4,No,healthy_reciprocity,positive
+G095,Instagram,Initial,No,reduced,medium,Yes,has_partner,low,40,5,No,already_has_boyfriend,not_available
+G096,Dating App,Talking,Yes,increased,high,No,has_partner,medium,42,0,Yes,mixed_signals,rejected
+G097,Dating App,Frequent Talking,Yes,stable,low,No,single/unknown,high,28,1,Yes,mixed_signals,rejected
+G098,Dating App,Dating,No,reduced,medium,Yes,has_partner,high,20,5,No,already_has_boyfriend,not_available
+G099,Dating App,Initial,Yes,reduced,low,No,has_partner,low,27,0,No,ghosting_after_yes,ghosted
+G100,College,Frequent Talking,Yes,reduced,medium,Yes,has_partner,high,8,5,Yes,ghosting_after_yes,ghosted
