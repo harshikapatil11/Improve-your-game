@@ -1,4 +1,4 @@
-const DEMO_MODE = true;
+const DEMO_MODE = false;
 
 const demoResult = {
   warning: 'HIGH',
@@ -29,7 +29,7 @@ export async function analyzeSituation(payload) {
     return localAnalysis(payload);
   }
   try {
-    const response = await fetch('http://localhost:5000/analyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+    const response = await fetch('/api/analyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
     if (!response.ok) throw new Error('analysis unavailable');
     return response.json();
   } catch {
