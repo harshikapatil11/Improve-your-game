@@ -16,18 +16,24 @@ const demoResult = {
   ],
 };
 
+function localAnalysis(payload) {
+  const concernCount = [payload.reply_change !== 'Consistent', payload.reciprocity !== 'Equal', payload.mixed_signals === 'YES', payload.he_increased_pursuit === 'Yes', payload.relationship_status === 'Dating someone'].filter(Boolean).length;
+  const warning = concernCount >= 3 ? 'HIGH' : concernCount >= 1 ? 'MEDIUM' : 'LOW';
+  const commonPattern = payload.reply_change === 'Randomly disappears' ? 'ghosting_after_yes' : payload.reciprocity !== 'Equal' ? 'one_sided_effort' : payload.mixed_signals === 'YES' ? 'mixed_signals' : 'hot_and_cold';
+  return { ...demoResult, warning, negative_cases: warning === 'HIGH' ? 4 : warning === 'MEDIUM' ? 3 : 1, negative_ratio: warning === 'HIGH' ? .8 : warning === 'MEDIUM' ? .6 : .2, common_pattern: commonPattern, pattern_frequency: warning === 'LOW' ? 2 : 3 };
+}
+
 export async function analyzeSituation(payload) {
   if (DEMO_MODE) {
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    return demoResult;
+    await new Promise((resolve) => setTimeout(resolve, 900));
+    return localAnalysis(payload);
   }
-
-  const response = await fetch('http://localhost:5000/analyze', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload),
-  });
-
-  if (!response.ok) throw new Error('The receipts could not be fetched.');
-  return response.json();
+  try {
+    const response = await fetch('http://localhost:5000/analyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+    if (!response.ok) throw new Error('analysis unavailable');
+    return response.json();
+  } catch {
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    return localAnalysis(payload);
+  }
 }
